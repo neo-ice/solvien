@@ -1,6 +1,6 @@
     (function(){
       /* --------- Countdown to Oct 15, 2025 00:00:00 (local) --------- */
-      const target = new Date('2025-10-15T00:00:00'); // ISO format - local timezone assumed
+      const target = new Date('2025-10-15T17:00:00'); // ISO format - local timezone assumed
       const daysEl = document.getElementById('days');
       const hoursEl = document.getElementById('hours');
       const minutesEl = document.getElementById('minutes');
@@ -79,3 +79,4 @@
 
     
     })();
+
